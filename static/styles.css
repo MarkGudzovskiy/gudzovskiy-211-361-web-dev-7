@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('/background.jpg') no-repeat center top / cover;
+
+}
+
+.calc_container {
+    width: 524px;
+    align-items: center;
+
+}
+
+.table_resview {
+    background-color: rgb(232, 112, 190);
+    text-align: right;
+    align-items: center;
+    width: 524px;
+    height: 80px;
+    color: black;
+    font-size: 34px;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+.butt_digit, .butt_other {
+    background-color: rgba(155, 9, 114, 0.635);
+    border-radius: 10px;
+    
+}
+
+.butt_digit {
+    width: 310px;
+    
+
+}
+
+.butt_other {
+    /* width: 100px; */
+    width: 205px;
+}
+
+.key {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(247, 241, 251);
+    cursor: pointer;
+
+    font-size: 40px;
+    box-shadow: 2px 3px 2px rgb(0,0,0,0.5); 
+
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.operation {
+    background-color: rgb(241, 53, 223);
+}
+
+.bracket {
+    background-color: rgb(241, 53, 223);
+}
+
+.clear {
+    background-color: rgb(241, 53, 223);
+}
+
+.result {
+    background-color: rgb(241, 53, 223);
+}
+
+.key:hover {
+    opacity: 0.9;
+}
+
+.key:active {
+    box-shadow: 1px 1px 2px rgb(0,0,0,0.5); 
+}
